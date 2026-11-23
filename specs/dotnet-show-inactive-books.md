@@ -2,7 +2,7 @@
 
 ## Metadata
 
-- **Owner:** Not assigned (to be confirmed by the reviewer)
+- **Owner:** Aaron Arendt
 - **Status:** Approved
 - **Source root:** `legacy-src/dotnet-bookcatalog/shared-legacy-app`
 - **Related issue:** not created
@@ -215,7 +215,7 @@ Stop and request human guidance if:
       criteria, validation command, exclusions, risks, and stop conditions.
 - **Reviewer:** AaronArendt
 - **Approval date:** 2026-11-23
-- **Approved specification commit:** {{commit SHA}}
+- **Approved specification commit:** 9e892e7
 
 Change **Status** to `Approved` only after the checkbox is selected and the
 reviewer, date, and commit fields are complete. Planning approval authorizes
