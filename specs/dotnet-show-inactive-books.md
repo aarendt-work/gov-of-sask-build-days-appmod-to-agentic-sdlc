@@ -62,7 +62,6 @@ whether inactive books may be shown to all users is an unresolved question.
 - **Allowed paths:**
   - `legacy-src/dotnet-bookcatalog/shared-legacy-app/src/BookCatalog.Web/Controllers/BooksController.cs` (the `Index` action only)
   - `legacy-src/dotnet-bookcatalog/shared-legacy-app/src/BookCatalog.Web/Views/Books/Index.cshtml`
-  - `specs/dotnet-show-inactive-books.md` (this specification)
 - **Primary validation command:** `msbuild BookCatalog.sln -restore -p:Configuration=Release`, run from `legacy-src/dotnet-bookcatalog/shared-legacy-app`.
 - **Compatibility:** Preserve ASP.NET MVC 5, .NET Framework 4.8, EF6, `packages.config` and the solution layout; the default `/Books` view, routes, columns and CRUD links stay unchanged. (`legacy-src/dotnet-bookcatalog/AGENTS.md`; `.github/instructions/dotnet.instructions.md`)
 - **Dependencies:** No new package, configuration change, or schema change.
